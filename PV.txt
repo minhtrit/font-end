@@ -1,0 +1,47 @@
+Iconic
+Position: Leader
+Hỏi rất lan man, hỏi về nhiều lĩnh vực khác PHP, Android, IOs 
+Tiếng anh nghe chưa được tốt lắm, phải hỏi lại nhiều câu
+=> Tuyển leader, không phù hợp, cần improve tiếng anh
+
+Orient
+Position: Asp.net MVC
+Bài test khó, sâu EF6, HTML5, CSS3, MVC4, SQL, Teamwork, Jquery,hỏi về những dự án đã làm qua
+Bài test tiếng anh: trong 3 năm tới bạn là ai? bạn đã có kế hoạch cho việc đó chưa?
+Trả lời PV chưa tốt, tại sao bạn nghỉ công ty cũ, ngoại ngữ chưa tốt lắm
+=> phải đào sâu tìm hiểu những kiến thức về .net, cụ thể là EF, MVC, SQL, trả lời tốt câu hỏi sao bạn nghỉ việc
+
+
+Amaris
+Position : Asp.net 
+Hỏi kiến thức cơ bản như khá sâu: Hướng đối tượng, IQueryAble, IEnumerable, List, 
+Tiếng anh chưa tốt
+=> Improve tiếng anh, nắm thật kỹ những đối tượng mình sử dụng, interface, asbtrack class
+
+Global 
+Position: senior developer
+Hỏi về những dự án đã làm, hỏi biết cách dùng tool để cải thiện công việc không?
+hỏi sự khác nhau giữa webform và mvc. Hỏi về authorization in MVC.
+=> nắm thật kỹ sự khác nhau giữa Webform và MVC, Authentication, kiến thức SQL, 
+
+Vinasoft
+Postion senior developer
+Bài test ở mức hơi khó, sự khác nhau giửa từ khóa const và readonly, trả lời câu hỏi khảo sát chưa đúng
+hỏi về dự án đã làm, hỏi cách alert khi có ai đó login vào tài khoản, các cách để tối ưu SQL
+
+2ClickSolution
+what was your biggest task in ISB Vietnam project?and how long were you doing it?
+Lets say you need to implement login/register requirement
+for people who want to order food
+so each person gets a profile page
+with list of previous orders
+favorite restaurants...
+what would you do?
+
+Aswig
+Đảo ngược chuổi 123456.
+Hỏi về route, hỏi về mối liên hệ giữa session và cookie, hỏi về sự khác nhau giữa authentication và authorization
+store lưu ở đâu trong EF
+lam sao de check error in view (model)
+khác nhau giữa MVC và webform
+Hỏi tại sao công ty phải tuyển mình
