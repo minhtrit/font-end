@@ -1,4 +1,4 @@
-Iconic
+﻿Iconic
 Position: Leader
 Hỏi rất lan man, hỏi về nhiều lĩnh vực khác PHP, Android, IOs 
 Tiếng anh nghe chưa được tốt lắm, phải hỏi lại nhiều câu
@@ -45,3 +45,6 @@ store lưu ở đâu trong EF
 lam sao de check error in view (model)
 khác nhau giữa MVC và webform
 Hỏi tại sao công ty phải tuyển mình
+
+
+kkkkk
