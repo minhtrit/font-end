@@ -1,0 +1,42 @@
+
+.headerstrip{
+  background: rgb(20,20,20);
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+.logo{
+  margin-top: 8px;
+}
+.svg-wrapper {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 40px;
+  width: 150px;  
+}
+.shape {
+  stroke-dasharray: 60 260;
+  stroke-dashoffset: -233;
+  stroke-width: 5px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  color: #fff;
+  top: -35px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 380;
+}
