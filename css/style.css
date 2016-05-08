@@ -1,42 +1,56 @@
 
 .headerstrip{
-  background: rgb(20,20,20);
+  background: #080808;
   text-align: center;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .logo{
   margin-top: 8px;
 }
-.svg-wrapper {
+/* Effect 16: fall down */
+.navbar-inverse{
+  background : #080808 !important;
+}
+.navbar{
+  margin-bottom: 0px !important;
+}
+.cl-effect-16 li {
   display: inline-block;
-  float: left;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-top: 40px;
-  width: 150px;  
 }
-.shape {
-  stroke-dasharray: 60 260;
-  stroke-dashoffset: -233;
-  stroke-width: 5px;
-  fill: transparent;
-  stroke: #19f6e8;
-  border-bottom: 5px solid black;
-  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-}
-.text {
-  font-family: 'Roboto Condensed';
-  font-size: 13px;
-  line-height: 22px;
-  letter-spacing: 3px;
+
+.cl-effect-16 a {
+  background: #080808;
   color: #fff;
-  top: -35px;
-  position: relative;
 }
-.svg-wrapper:hover .shape {
-  stroke-width: 2px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 380;
+
+.navbar-nav>li>a {
+  padding: 0px 15px !important;
+}
+
+.navbar-nav>li>span {
+  padding-top: 5px;
+  color: #fff;
+}
+
+.cl-effect-16 a::before {
+  color: #fff;
+  content: attr(data-hover);
+  position: absolute;
+  opacity: 0;
+  -webkit-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+  -moz-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+  transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.1s;
+  transition: transform 0.5s, opacity 0.1s;
+  pointer-events: none;
+}
+
+.cl-effect-16 a:hover::before,
+.cl-effect-16 a:focus::before {
+  -webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+  -moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+  transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+  opacity: 1;
 }
